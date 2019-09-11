@@ -1,0 +1,427 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Sep 10 19:24:14 2019
+# Process ID: 1280
+# Current directory: C:/Users/Bobby  Haus/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log factorial_FPGA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source factorial_FPGA.tcl
+# Log file: C:/Users/Bobby  Haus/project_1/project_1.runs/synth_1/factorial_FPGA.vds
+# Journal file: C:/Users/Bobby  Haus/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source factorial_FPGA.tcl -notrace
+Command: synth_design -top factorial_FPGA -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5528 
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/bin2hex32.v:35]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/bin2hex32.v:36]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/bin2hex32.v:37]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/bin2hex32.v:38]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/bin2hex32.v:39]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/bin2hex32.v:40]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/bin2hex32.v:41]
+WARNING: [Synth 8-2292] literal value truncated to fit in 4 bits [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/bin2hex32.v:42]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 678.957 ; gain = 182.148
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'factorial_FPGA' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_FPGA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'factorial_cu_dp' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_cu_dp.v:23]
+INFO: [Synth 8-6157] synthesizing module 'factorial_dp' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/mux.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux' (1#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'buffer' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/buffer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'buffer' (2#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/buffer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'reg_file' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/reg_file.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'reg_file' (3#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/reg_file.v:23]
+INFO: [Synth 8-6157] synthesizing module 'multiply' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/multiply.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'multiply' (4#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/multiply.v:23]
+INFO: [Synth 8-6157] synthesizing module 'compare' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/compare.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'compare' (5#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/compare.v:23]
+INFO: [Synth 8-6157] synthesizing module 'down_counter' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/down_counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'down_counter' (6#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/down_counter.v:23]
+WARNING: [Synth 8-3848] Net done in module/entity factorial_dp does not have driver. [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_top.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'factorial_dp' (7#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_top.v:23]
+WARNING: [Synth 8-7023] instance 'fact_dp' of module 'factorial_dp' has 11 connections declared, but only 10 given [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_cu_dp.v:38]
+INFO: [Synth 8-6157] synthesizing module 'factorial_CU' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:23]
+	Parameter Idle bound to: 3'b000 
+	Parameter Load bound to: 3'b001 
+	Parameter Wait bound to: 3'b010 
+	Parameter OE_AND_Done bound to: 3'b011 
+	Parameter Mult_AND_Dec bound to: 3'b100 
+WARNING: [Synth 8-153] case item 2'b0z will never be executed [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:51]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:49]
+WARNING: [Synth 8-567] referenced signal 'GT_CS' should be on the sensitivity list [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:47]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'factorial_CU' (8#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'factorial_cu_dp' (9#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_cu_dp.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_gen' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/clk_gen.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'clk_gen' (10#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/clk_gen.v:21]
+WARNING: [Synth 8-7023] instance 'U0' of module 'clk_gen' has 4 connections declared, but only 3 given [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_FPGA.v:30]
+INFO: [Synth 8-6157] synthesizing module 'bin2hex32' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/bin2hex32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bin2hex32' (11#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/bin2hex32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'HILO_MUX' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/HILO_MUX.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'HILO_MUX' (12#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/HILO_MUX.v:22]
+INFO: [Synth 8-6157] synthesizing module 'hex_to_7seg' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/hex_to_7seg.v:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/hex_to_7seg.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'hex_to_7seg' (13#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/hex_to_7seg.v:21]
+INFO: [Synth 8-6157] synthesizing module 'LED_MUX' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/LED_MUX.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/LED_MUX.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'LED_MUX' (14#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/LED_MUX.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'factorial_FPGA' (15#1) [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_FPGA.v:1]
+WARNING: [Synth 8-3331] design factorial_dp has unconnected port done
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 717.418 ; gain = 220.609
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 717.418 ; gain = 220.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 717.418 ; gain = 220.609
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Bobby  Haus/project_1/project_1.srcs/constrs_1/new/factorial_FPGA.xdc]
+Finished Parsing XDC File [C:/Users/Bobby  Haus/project_1/project_1.srcs/constrs_1/new/factorial_FPGA.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Bobby  Haus/project_1/project_1.srcs/constrs_1/new/factorial_FPGA.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/factorial_FPGA_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/factorial_FPGA_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 850.848 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 850.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 850.848 ; gain = 354.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 850.848 ; gain = 354.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 850.848 ; gain = 354.039
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'CS_reg' in module 'factorial_CU'
+WARNING: [Synth 8-327] inferring latch for variable 'Sel_reg' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:76]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_NS_reg' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:52]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_NS_reg' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:52]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                            00001 |                              000
+                    Load |                            00010 |                              001
+                    Wait |                            00100 |                              010
+            Mult_AND_Dec |                            01000 |                              100
+             OE_AND_Done |                            10000 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CS_reg' using encoding 'one-hot' in module 'factorial_CU'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_NS_reg' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:52]
+WARNING: [Synth 8-327] inferring latch for variable 'Load_reg_reg' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:76]
+WARNING: [Synth 8-327] inferring latch for variable 'Load_cnt_reg' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:76]
+WARNING: [Synth 8-327] inferring latch for variable 'Done_Internal_reg' [C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v:35]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 850.848 ; gain = 354.039
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Multipliers : 
+	                 4x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input      7 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   4 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 5     
+	  16 Input      1 Bit        Muxes := 28    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module buffer 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module reg_file 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module multiply 
+Detailed RTL Component Info : 
++---Multipliers : 
+	                 4x32  Multipliers := 1     
+Module down_counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module factorial_CU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      5 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 5     
+Module clk_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module HILO_MUX 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+Module hex_to_7seg 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      1 Bit        Muxes := 7     
+Module LED_MUX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3332] Sequential element (nolabel_line21/fact_cu/Sel_reg) is unused and will be removed from module factorial_FPGA.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 850.848 ; gain = 354.039
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 850.848 ; gain = 354.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 850.848 ; gain = 354.039
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 850.848 ; gain = 354.039
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 856.520 ; gain = 359.711
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 856.520 ; gain = 359.711
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 856.520 ; gain = 359.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 856.520 ; gain = 359.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 856.520 ; gain = 359.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 856.520 ; gain = 359.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     1|
+|4     |LUT2   |     6|
+|5     |LUT3   |     9|
+|6     |LUT4   |     8|
+|7     |LUT5   |    13|
+|8     |LUT6   |     2|
+|9     |FDRE   |    44|
+|10    |LD     |     8|
+|11    |IBUF   |     8|
+|12    |OBUF   |    13|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------+----------------+------+
+|      |Instance         |Module          |Cells |
++------+-----------------+----------------+------+
+|1     |top              |                |   121|
+|2     |  U0             |clk_gen         |    56|
+|3     |  U3             |LED_MUX         |    14|
+|4     |  nolabel_line21 |factorial_cu_dp |    28|
+|5     |    fact_cu      |factorial_CU    |    19|
+|6     |    fact_dp      |factorial_dp    |     9|
+|7     |      count      |down_counter    |     9|
++------+-----------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 856.520 ; gain = 359.711
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:36 . Memory (MB): peak = 856.520 ; gain = 226.281
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:42 . Memory (MB): peak = 856.520 ; gain = 359.711
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 868.113 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  LD => LDCE: 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:53 . Memory (MB): peak = 868.113 ; gain = 576.176
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 868.113 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Bobby  Haus/project_1/project_1.runs/synth_1/factorial_FPGA.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file factorial_FPGA_utilization_synth.rpt -pb factorial_FPGA_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 10 19:25:21 2019...

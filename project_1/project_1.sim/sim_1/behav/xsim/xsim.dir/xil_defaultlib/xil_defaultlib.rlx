@@ -1,0 +1,15 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Bobby  Haus/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Bobby  Haus/project_1/project_1.srcs/sim_1/new/cu_dp_tb.v,1568144342,verilog,,,,cu_dp_tb,,,,,,,,
+C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/buffer.v,1568144609,verilog,,C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/compare.v,,buffer,,,,,,,,
+C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/compare.v,1568090234,verilog,,C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/down_counter.v,,compare,,,,,,,,
+C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/down_counter.v,1568147074,verilog,,C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v,,down_counter,,,,,,,,
+C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_CU.v,1568147926,verilog,,C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_cu_dp.v,,factorial_CU,,,,,,,,
+C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_cu_dp.v,1568144580,verilog,,C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_top.v,,factorial_cu_dp,,,,,,,,
+C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/factorial_top.v,1568144758,verilog,,C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/multiply.v,,factorial_dp,,,,,,,,
+C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/multiply.v,1568144444,verilog,,C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/mux.v,,multiply,,,,,,,,
+C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/mux.v,1567531074,verilog,,C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/reg_file.v,,mux,,,,,,,,
+C:/Users/Bobby  Haus/project_1/project_1.srcs/sources_1/new/reg_file.v,1568144628,verilog,,C:/Users/Bobby  Haus/project_1/project_1.srcs/sim_1/new/cu_dp_tb.v,,reg_file,,,,,,,,
