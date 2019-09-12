@@ -24,7 +24,7 @@ module cu_dp_tb();
     reg tb_go, tb_clk;
     reg [3:0] tb_n;
     wire tb_done, tb_error;
-    wire[7:0] tb_out;
+    wire[31:0] tb_out;
     
  factorial_cu_dp DUT(
     .go (tb_go),
