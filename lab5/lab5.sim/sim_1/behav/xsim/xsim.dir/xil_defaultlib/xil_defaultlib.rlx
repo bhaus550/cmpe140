@@ -1,0 +1,20 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/auxdec.v,1529302800,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/controlunit.v,,auxdec,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/controlunit.v,1532882706,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/datapath.v,,controlunit,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/maindec.v,1529302754,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips.v,,maindec,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/adder.v,1529310694,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/alu.v,,adder,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/alu.v,1529310932,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/auxdec.v,,alu,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/datapath.v,1532882674,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/memory/dmem.v,,datapath,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/dreg.v,1529303352,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/memory/imem.v,,dreg,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/mux2.v,1529310740,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/regfile.v,,mux2,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/regfile.v,1532882904,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/signext.v,,regfile,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/signext.v,1529310666,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/testbench/tb_mips_top.v,,signext,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/memory/dmem.v,1529320862,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/dreg.v,,dmem,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/memory/imem.v,1571160306,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/control_unit/maindec.v,,imem,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips.v,1532882912,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips_top.v,,mips,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/mips/mips_top.v,1529325602,verilog,,//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/mux2.v,,mips_top,,,,,,,,
+//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/testbench/tb_mips_top.v,1532882996,verilog,,,,tb_mips_top,,,,,,,,
+C:/Users/Bobby  Haus/lab5/lab5.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
